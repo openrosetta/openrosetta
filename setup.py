@@ -32,7 +32,8 @@ setup(name='openrosetta',
           'cornice',
           'waitress',
           'ming',
-          'colander==1.0b1'],
+          'colander==1.0b1',
+          'requests'],
       entry_points="""\
       [paste.app_factory]
       main = openrosetta:main
