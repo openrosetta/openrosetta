@@ -1,8 +1,12 @@
 """ Cornice services.
 """
+from bson import ObjectId
+from bson.errors import InvalidId
 from colander import MappingSchema, SchemaNode, String, OneOf, Integer
 from cornice import Service
 from openrosetta.homer import homer_adapter
+from openrosetta.models import Dataset
+from pyramid.httpexceptions import HTTPNotFound
 
 
 class HomerSchema(MappingSchema):
@@ -11,6 +15,10 @@ class HomerSchema(MappingSchema):
     wt = SchemaNode(String(), location='querystring', missing='json', validator=OneOf(['json']))
     start = SchemaNode(Integer(), location='querystring')
     rows = SchemaNode(Integer(), location='querystring')
+
+
+class BabilonIdSchema(MappingSchema):
+    id = SchemaNode(String(), location='path')
 
 
 hello = Service(name='hello', path='/', description="Simplest app")
@@ -27,4 +35,17 @@ homer = Service(name='homer', path='/homer', description='Homer endpoint proxy')
 
 @homer.get(schema=HomerSchema)
 def get_homer(request):
-    return homer_adapter.proxy(params=request.validated)
+    return homer_adapter.proxy(**request.validated)
+
+
+babylon = Service(name='babylon', path='/babylon/{id}', description='Babylon')
+
+
+@babylon.get(schema=BabilonIdSchema)
+def get_babylon(request):
+    try:
+        dataset = Dataset.query.get(_id=ObjectId(request.validated['id']))
+        assert dataset is not None
+    except (InvalidId, AssertionError):
+        raise HTTPNotFound
+    return {'su': 'cchia', 'homer_q': dataset.homer_q.q}
