@@ -7,6 +7,7 @@ from cornice import Service
 from openrosetta.homer import homer_adapter
 from openrosetta.models import Dataset
 from pyramid.httpexceptions import HTTPNotFound
+from openrosetta.plugins.smeagol.data_fetcher import DataFetcher
 
 
 class HomerSchema(MappingSchema):
@@ -27,6 +28,8 @@ hello = Service(name='hello', path='/', description="Simplest app")
 @hello.get()
 def get_info(request):
     """Returns Hello in JSON."""
+    df = DataFetcher("sqlite:///test", "/files/")
+    df.test()  # do not cal test call self.fetch_data([list of urls to download])
     return {'Hello': 'World'}
 
 
