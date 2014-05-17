@@ -32,6 +32,8 @@ setup(name='openrosetta',
           'cornice',
           'waitress',
           'ming',
+          'anykeystore',
+          'sqlalchemy',
           'colander==1.0b1'],
       entry_points="""\
       [paste.app_factory]
