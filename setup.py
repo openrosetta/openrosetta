@@ -33,7 +33,11 @@ setup(name='openrosetta',
           'waitress',
           'ming',
           'colander==1.0b1',
-          'xlrd'],
+          'xlrd',
+          'anykeystore',
+          'sqlalchemy',
+          'colander==1.0b1',
+          'requests'],
       entry_points="""\
       [paste.app_factory]
       main = openrosetta:main

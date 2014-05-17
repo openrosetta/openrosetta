@@ -44,3 +44,7 @@ docs/_build/
 
 # Pycharm
 .idea*
+
+#openrosettta
+plugins/smeagol/files
+
