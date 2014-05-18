@@ -2,6 +2,7 @@ from xml.etree import ElementTree
 from cStringIO import StringIO
 from openrosetta.models import Dataset, HomerQ
 from openrosetta.plugins.csv_plugin import dictify
+from pyramid.httpexceptions import HTTPNotFound
 from pyramid.threadlocal import get_current_request
 import requests
 import simplejson as json
@@ -43,7 +44,10 @@ class HomerAdapter(object):
 
     def proxy(self, **query):
         r = requests.get(self.base_url, params=query)
-        r = r.json()
+        try:
+            r = r.json()
+        except:
+            raise HTTPNotFound
         homer_q = HomerQ.query.find({'q': query}).first()
         if homer_q is None:
             homer_q = HomerQ(q=query)
@@ -73,7 +77,7 @@ class HomerAdapter(object):
         for url in urls:
             r = requests.get(url)
             if 'csv' in r.headers.get('content-type', ''):
-                data.append(dictify(StringIO(requests.get(r.content))))
+                data.append(dictify(StringIO(r.content)))
         return data
 
 
