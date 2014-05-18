@@ -2,10 +2,9 @@ import types
 from xml2dict import xmlreader
 from dbf import dbfreader
 from csv import DictReader, Sniffer
-from geopy.geocoders import GoogleV3
+import shelve
 
-geolocator = GoogleV3(api_key='AIzaSyD2r5wGO8TiV5VhEQzVMm8dfGIHaaOC3Kg')
-
+addr_cache = shelve.open('addr_cache.shelve')
 
 def load_data():
     data = []
@@ -43,7 +42,7 @@ class RootController(TGController):
             }
         </style>
         <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD2r5wGO8TiV5VhEQzVMm8dfGIHaaOC3Kg&sensor=false"></script>
+        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAocV46im3ctvP9Oiqmi625Lf0qLjR9zgg&sensor=false"></script>
         <script type="text/javascript">
           function put_marker(map, location, name, power) {
                var marker = new google.maps.Marker({
@@ -74,6 +73,9 @@ class RootController(TGController):
 
                 geocoder.geocode({'address':location}, function(result, status){
                     if(status==google.maps.GeocoderStatus.OK) {
+                        $.post('/save_geocode', {addr: location, 
+                                                 lng: result[0].geometry.location.lng(), 
+                                                 lat: result[0].geometry.location.lat()});
                         console.log('OK', idx);
                         put_marker(map, result[0].geometry.location, name, power);
                         setTimeout(function() { geocode_put_marker(map, geocoder, geocodable_data, idx+1); }, 200);
@@ -137,11 +139,10 @@ class RootController(TGController):
             if isinstance(entry, list):
                 for row in entry:
                     if 'NOMBRE' in row and 'POTENCIA' in row:
+                        namekey = row['NOMBRE'].encode('utf-8')
                         pos = None
-                        #addrinfo = geolocator.geocode(row['NOMBRE'], exactly_one=True)
-                        #if addrinfo is not None:
-                        #    address, (lat, lng) = addrinfo
-                        #    pos = (lng, lat)
+                        if addr_cache.has_key(namekey):
+                            pos = addr_cache[namekey]
                         filtered_data.append({'location': row['NOMBRE'], 'power': row['POTENCIA'].split()[0].replace(',', '.'), 'position': pos})
             elif isinstance(entry, dict):
                 entry = entry['kml']['Document']['Folder']['Placemark']
@@ -165,10 +166,19 @@ class RootController(TGController):
                         total_power += int(row['POTENZA_uguale_350_KW_e_maggiore']) * 350.0
 
                     if total_power:
+                        pos = None
+                        if addr_cache.has_key(row['toponimo']):
+                            pos = addr_cache[row['toponimo']]
+
                         filtered_data.append({'location': row['toponimo'].lower(), 'power': total_power/1000, 'position': None})
             
         return dict(data=filtered_data)
 
+    @expose()
+    def save_geocode(self, addr, lng, lat):
+        addr_cache[addr.encode('utf-8')] = (lng, lat)
+        addr_cache.sync()
+        return 'OK'
 
 config = AppConfig(minimal=True, root_controller=RootController())
 config.renderers = ['json']

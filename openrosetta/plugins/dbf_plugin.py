@@ -1,4 +1,6 @@
 import struct, datetime, decimal, itertools
+from openrosetta.exceptions import InvalidFileFormat
+
 
 def open_dbf(f):
     """Returns an iterator over records in a Xbase DBF file.
@@ -61,14 +63,15 @@ def open_dbf(f):
 def dictify(f):
     headers = None
     data = []
-
-    for idx, row in enumerate(open_dbf(f)):
-        if not len(row) or not isinstance(row[0], basestring):
-            continue
-        if idx == 0 and headers is None:
-            headers = row
-        else:
-            entry = dict((headers[i], str(row[i]).decode('latin-1')) for i in xrange(len(row)))
-            data.append(entry)
-
+    try:
+        for idx, row in enumerate(open_dbf(f)):
+            if not len(row) or not isinstance(row[0], basestring):
+                continue
+            if idx == 0 and headers is None:
+                headers = row
+            else:
+                entry = dict((headers[i], str(row[i]).decode('latin-1')) for i in xrange(len(row)))
+                data.append(entry)
+    except:
+        raise InvalidFileFormat
     return data
