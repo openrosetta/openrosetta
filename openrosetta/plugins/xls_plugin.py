@@ -3,8 +3,6 @@ from openrosetta.exceptions import InvalidFileFormat
 import xlrd
 
 def dictify(file_=None):
-    if file_ is None:
-        file_ = open("/home/gas/Desktop/porocodio.xls", "r")
     try:
         workbook = xlrd.open_workbook(file_contents=file_.read(), encoding_override="cp1252")
     except:

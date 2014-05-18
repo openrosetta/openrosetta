@@ -9,8 +9,6 @@ def UnicodeDictReader(utf8_data, **kwargs):
         yield dict([(key, unicode(value, 'cp1252')) for key, value in row.iteritems()])
 
 def dictify(file_=None):
-    if file_ is None:
-        file_ = open("/home/gas/Desktop/elenco_MMG_PLS_OPENDATA.csv", "r")
     try:
         dialect = csv.Sniffer().sniff(file_.read(), delimiters=';,')
         file_.seek(0)
