@@ -13,10 +13,9 @@ def dictify(file_=None):
         file_ = open("/home/gas/Desktop/elenco_MMG_PLS_OPENDATA.csv", "r")
     try:
         dialect = csv.Sniffer().sniff(file_.read(), delimiters=';,')
+        file_.seek(0)
+        data = UnicodeDictReader(file_, dialect=dialect)
     except:
         raise InvalidFileFormat
-    file_.seek(0)
-    data = UnicodeDictReader(file_, dialect=dialect)
-
     return list(data)
 
