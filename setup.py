@@ -37,7 +37,8 @@ setup(name='openrosetta',
           'anykeystore',
           'sqlalchemy',
           'colander==1.0b1',
-          'requests'],
+          'requests',
+          'pyramid_chameleon'],
       entry_points="""\
       [paste.app_factory]
       main = openrosetta:main

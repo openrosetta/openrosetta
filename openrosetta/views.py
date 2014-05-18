@@ -7,6 +7,7 @@ from openrosetta.config import RService
 from openrosetta.homer import homer_adapter
 from openrosetta.models import Dataset
 from pyramid.httpexceptions import HTTPNotFound
+from pyramid.view import view_config
 
 
 class HomerSchema(MappingSchema):
@@ -21,13 +22,9 @@ class BabilonIdSchema(MappingSchema):
     id = SchemaNode(String(), location='path')
 
 
-hello = RService(name='hello', path='/', description="Simplest app")
-
-
-@hello.get()
-def get_info(request):
-    """Returns Hello in JSON."""
-    return 'openrosetta Api Server'
+@view_config(route_name='home', renderer='templates/home.pt')
+def home(request):
+    return {'one': 'one', 'project': '{{project}}'}
 
 
 homer = RService(name='homer', path='/homer', description='Homer endpoint proxy')
