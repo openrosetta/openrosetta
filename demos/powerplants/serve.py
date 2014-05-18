@@ -2,8 +2,10 @@ import types
 from xml2dict import xmlreader
 from dbf import dbfreader
 from csv import DictReader, Sniffer
+from geopy.geocoders import GoogleV3
 import shelve
 
+geolocator = GoogleV3(api_key='AIzaSyD2r5wGO8TiV5VhEQzVMm8dfGIHaaOC3Kg')
 addr_cache = shelve.open('addr_cache.shelve')
 
 def load_data():
@@ -42,7 +44,7 @@ class RootController(TGController):
             }
         </style>
         <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAocV46im3ctvP9Oiqmi625Lf0qLjR9zgg&sensor=false"></script>
+        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD2r5wGO8TiV5VhEQzVMm8dfGIHaaOC3Kg&sensor=false"></script>
         <script type="text/javascript">
           function put_marker(map, location, name, power) {
                var marker = new google.maps.Marker({
