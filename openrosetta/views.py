@@ -13,7 +13,7 @@ def get_info(request):
     """Returns Hello in JSON."""
 
     #dictify()
-    df = DataFetcher("sqlite:///test", "/files/")
+    df = DataFetcher("sqlite:///test.db", "/files/")
     df.test()# do not cal test call self.fetch_data([list of urls to download])
 
     return {'Hello': 'World'}
