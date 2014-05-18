@@ -39,3 +39,5 @@ def includeme(config):
         session.ensure_indexes(mapper.collection)
 
     config.add_tween('openrosetta.models.ming_autoflush_tween', over=EXCVIEW)
+
+from babylon import Dataset, HomerQ

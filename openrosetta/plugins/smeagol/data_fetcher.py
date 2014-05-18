@@ -14,11 +14,11 @@ class HeadRequest(urllib2.Request):
 
 
 class DataFetcher(object):
-    def __init__(self, db_file, file_dir):
+    def __init__(self,):
         super(DataFetcher, self).__init__()
-        self.ds = DataStorage(db_file)
-        self.file_dir = file_dir
-        print "DIR " + os.path.dirname(os.path.abspath(__file__)) + self.file_dir
+        self.file_dir = "/files/"
+        self.ds = DataStorage("sqlite:///"+os.path.dirname(os.path.abspath(__file__)) + self.file_dir+"cache.db")
+
         print "Current Cache size: " + str(self.cache_folder_size(
             os.path.dirname(os.path.abspath(__file__)) + self.file_dir)) + " MB"
 

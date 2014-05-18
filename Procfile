@@ -1,0 +1,1 @@
+web: gunicorn --paste openrosetta.ini -b 0.0.0.0:$PORT
