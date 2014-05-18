@@ -1,11 +1,15 @@
 from xml.etree import ElementTree
 from cStringIO import StringIO
+from openrosetta.exceptions import InvalidFileFormat
 from openrosetta.models import Dataset, HomerQ
-from openrosetta.plugins.csv_plugin import dictify
 from pyramid.httpexceptions import HTTPNotFound
 from pyramid.threadlocal import get_current_request
 import requests
 import simplejson as json
+from openrosetta.plugins import csv_plugin, xls_plugin
+
+
+data_plugins = [csv_plugin, xls_plugin]
 
 
 class IDataUrl(object):
@@ -76,8 +80,12 @@ class HomerAdapter(object):
         data = []
         for url in urls:
             r = requests.get(url)
-            if 'csv' in r.headers.get('content-type', ''):
-                data.append(dictify(StringIO(r.content)))
+            for data_plugin in data_plugins:
+                try:
+                    data.append(data_plugin.dictify(StringIO(r.content)))
+                    break
+                except InvalidFileFormat:
+                    continue
         return data
 
 
