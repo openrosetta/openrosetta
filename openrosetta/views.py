@@ -28,10 +28,10 @@ hello = Service(name='hello', path='/', description="Simplest app")
 @hello.get()
 def get_info(request):
     """Returns Hello in JSON."""
-    df = DataFetcher("sqlite:///test", "/files/")
-    df.test()  # do not cal test call self.fetch_data([list of urls to download])
-    return {'Hello': 'World'}
 
+    #dictify()
+    df = DataFetcher()
+    df.test()# do not cal test call self.fetch_data([list of urls to download])
 
 homer = Service(name='homer', path='/homer', description='Homer endpoint proxy')
 
