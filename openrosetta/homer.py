@@ -2,7 +2,6 @@ from xml.etree import ElementTree
 from cStringIO import StringIO
 from openrosetta.exceptions import InvalidFileFormat
 from openrosetta.models import Dataset, HomerQ
-from openrosetta.plugins.csv_plugin import dictify
 from pyramid.httpexceptions import HTTPNotFound
 from pyramid.threadlocal import get_current_request
 import requests
