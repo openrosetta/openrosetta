@@ -5,7 +5,10 @@ import xlrd
 def dictify(file_=None):
     if file_ is None:
         file_ = open("/home/gas/Desktop/porocodio.xls", "r")
-    workbook = xlrd.open_workbook(file_contents=file_.read(), encoding_override="cp1252")
+    try:
+        workbook = xlrd.open_workbook(file_contents=file_.read(), encoding_override="cp1252")
+    except:
+        raise InvalidFileFormat
     worksheets = workbook.sheet_names()
     resp = []
     for worksheet_name in worksheets:
