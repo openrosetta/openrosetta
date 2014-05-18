@@ -61,16 +61,29 @@ class RootController(TGController):
                 }); 
           }
 
-          function geocode_put_marker(geocoder, index, map, location, name, power) {
+          function geocode_put_marker(map, geocoder, geocodable_data, idx) {
+                if (geocodable_data.length <= idx) {
+                    console.log(idx, geocodable_data.length);
+                    return;
+                }
+
+                var data = geocodable_data[idx];
+                var name = data.name;
+                var location = data.location;
+                var power = data.power;
+
                 geocoder.geocode({'address':location}, function(result, status){
                     if(status==google.maps.GeocoderStatus.OK) {
-                        console.log('OK');
+                        console.log('OK', idx);
                         put_marker(map, result[0].geometry.location, name, power);
+                        setTimeout(function() { geocode_put_marker(map, geocoder, geocodable_data, idx+1); }, 200);
                     }
-                    if(status===google.maps.GeocoderStatus.OVER_QUERY_LIMIT) {
-                        console.log('Timeout! Rescheduling...');
-                        setTimeout(function() { geocode_put_marker(geocoder, index, map, location, name, power) }, index*100); 
+                    else if(status===google.maps.GeocoderStatus.OVER_QUERY_LIMIT) {
+                        console.log('Timeout! Rescheduling...', idx);
+                        setTimeout(function() { geocode_put_marker(map, geocoder, geocodable_data, idx); }, 400); 
                     }
+                    else
+                        geocode_put_marker(map, geocoder, geocodable_data, idx+1);
                 });
           }
 
@@ -85,6 +98,8 @@ class RootController(TGController):
             $.getJSON('/data', function(data) {
                 var data = data.data;
                 var counter = 0;
+                var geocodable_data = [];
+
                 for (var i=0; i<data.length; i++) {
                     var entry = data[i];
                     var location = entry['position'];
@@ -94,12 +109,14 @@ class RootController(TGController):
                     var name = entry['location'];
                     var power = entry['power'];
                     if(!entry['position']) {
-                        geocode_put_marker(geocoder, i, map, location, name, power);
+                        geocodable_data.push({location: location, name:name, power:power});
                     }
                     else {
                         put_marker(map, new google.maps.LatLng(location[1], location[0]), name, power);
                     }
                 }
+
+                geocode_put_marker(map, geocoder, geocodable_data, 0);
             });
           }
           google.maps.event.addDomListener(window, 'load', initialize);
