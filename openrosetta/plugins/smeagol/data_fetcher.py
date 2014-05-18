@@ -18,7 +18,6 @@ class DataFetcher(object):
         super(DataFetcher, self).__init__()
         self.file_dir = "/files/"
         self.ds = DataStorage("sqlite:///"+os.path.dirname(os.path.abspath(__file__)) + self.file_dir+"cache.db")
-
         print "Current Cache size: " + str(self.cache_folder_size(
             os.path.dirname(os.path.abspath(__file__)) + self.file_dir)) + " MB"
 
@@ -84,9 +83,16 @@ class DataFetcher(object):
 
     def check_if_valid_file_last_update(self, url):
         try:
+            tag_filter = ["image", "text/html"]
             response = urllib2.urlopen(HeadRequest(url)).info()
-            if response['Content-Type'].find("application") != -1:
-                return response  #response['Last-Modified']
+            found = False
+            for tag in tag_filter:
+                if response['Content-Type'].find(tag) != -1:
+                    found = True
+            if not found:
+                return response
+            else:
+                return None
         except:
             return None
 
