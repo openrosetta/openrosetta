@@ -61,17 +61,19 @@ class HomerAdapter(object):
         return '/'.join([self.request.application_url, 'babylon', str(stored_ds._id)])
 
     def data_from_meta(self, metadata_origin):
+        urls = None
         r = requests.get(metadata_origin)
-        urls = XmlDataUrl().get_urls(r.text.encode('utf-8'))
+        for ct in mime_mapping:
+            if ct in r.headers.get('content-type', ''):
+                urls = mime_mapping[ct]().get_urls(r.text.encode('utf-8'))
         if not urls:
             return []
 
         data = []
         for url in urls:
             r = requests.get(url)
-            for ct in mime_mapping:
-                if ct in r.headers.get('content-type', ''):
-                    data.append(dictify(StringIO(requests.get(r.content))))
+            if 'csv' in r.headers.get('content-type', ''):
+                data.append(dictify(StringIO(requests.get(r.content))))
         return data
 
 
