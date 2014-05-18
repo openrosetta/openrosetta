@@ -73,7 +73,7 @@ class HomerAdapter(object):
         for url in urls:
             r = requests.get(url)
             if 'csv' in r.headers.get('content-type', ''):
-                data.append(dictify(StringIO(requests.get(r.content))))
+                data.append(dictify(StringIO(r.content)))
         return data
 
 
