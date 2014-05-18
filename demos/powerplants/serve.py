@@ -2,6 +2,9 @@ import types
 from xml2dict import xmlreader
 from dbf import dbfreader
 from csv import DictReader, Sniffer
+from geopy.geocoders import GoogleV3
+
+geolocator = GoogleV3(api_key='AIzaSyD2r5wGO8TiV5VhEQzVMm8dfGIHaaOC3Kg')
 
 
 def load_data():
@@ -45,7 +48,7 @@ class RootController(TGController):
           function put_marker(map, location, name, power) {
                var marker = new google.maps.Marker({
                     map:map,
-                    draggable:true,
+                    draggable:false,
                     animation:google.maps.Animation.DROP,
                     position:location
                 });
@@ -56,6 +59,19 @@ class RootController(TGController):
                 google.maps.event.addListener(marker,'click', function(){
                     infoWindow.open(map,marker);
                 }); 
+          }
+
+          function geocode_put_marker(geocoder, index, map, location, name, power) {
+                geocoder.geocode({'address':location}, function(result, status){
+                    if(status==google.maps.GeocoderStatus.OK) {
+                        console.log('OK');
+                        put_marker(map, result[0].geometry.location, name, power);
+                    }
+                    if(status===google.maps.GeocoderStatus.OVER_QUERY_LIMIT) {
+                        console.log('Timeout! Rescheduling...');
+                        setTimeout(function() { geocode_put_marker(geocoder, index, map, location, name, power) }, index*100); 
+                    }
+                });
           }
 
           function initialize() {
@@ -78,17 +94,7 @@ class RootController(TGController):
                     var name = entry['location'];
                     var power = entry['power'];
                     if(!entry['position']) {
-                        counter += 1;
-                        (function(i, map, location, name, power){
-                            setTimeout(function() {
-                                geocoder.geocode({'address':location}, function(result, status){
-                                    console.log(status);
-                                    if(status==google.maps.GeocoderStatus.OK) {
-                                        put_marker(map, result[0].geometry.location, name, power);
-                                    }
-                                });
-                            }, i*400);
-                        })(counter, map, location, name, power);
+                        geocode_put_marker(geocoder, i, map, location, name, power);
                     }
                     else {
                         put_marker(map, new google.maps.LatLng(location[1], location[0]), name, power);
@@ -114,7 +120,12 @@ class RootController(TGController):
             if isinstance(entry, list):
                 for row in entry:
                     if 'NOMBRE' in row and 'POTENCIA' in row:
-                        filtered_data.append({'location': row['NOMBRE'], 'power': row['POTENCIA'].split()[0].replace(',', '.'), 'position': None})
+                        pos = None
+                        #addrinfo = geolocator.geocode(row['NOMBRE'], exactly_one=True)
+                        #if addrinfo is not None:
+                        #    address, (lat, lng) = addrinfo
+                        #    pos = (lng, lat)
+                        filtered_data.append({'location': row['NOMBRE'], 'power': row['POTENCIA'].split()[0].replace(',', '.'), 'position': pos})
             elif isinstance(entry, dict):
                 entry = entry['kml']['Document']['Folder']['Placemark']
                 for row in entry:
