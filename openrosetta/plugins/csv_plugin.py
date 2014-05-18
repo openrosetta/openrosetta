@@ -15,7 +15,8 @@ def dictify(file_=None):
         dialect = csv.Sniffer().sniff(file_.read(), delimiters=';,')
         file_.seek(0)
         data = UnicodeDictReader(file_, dialect=dialect)
+        data = list(data)
     except:
         raise InvalidFileFormat
-    return list(data)
+    return data
 
