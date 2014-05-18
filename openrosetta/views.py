@@ -51,4 +51,7 @@ def get_babylon(request):
         assert dataset is not None
     except (InvalidId, AssertionError):
         raise HTTPNotFound
-    return {'su': 'cchia', 'homer_q': dataset.homer_q.q, 'metadata_origin': dataset.metadata_origin}
+
+    data = homer_adapter.data_from_meta(dataset.metadata_origin)
+
+    return {'data': data}

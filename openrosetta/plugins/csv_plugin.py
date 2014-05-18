@@ -9,5 +9,5 @@ def dictify(file_=None):
     except:
         raise InvalidFileFormat
     file_.seek(0)
-    data = csv.DictReader(file_, dialect)
-    return data
+    data = csv.DictReader(file_, dialect=dialect)
+    return list(data)

@@ -1,6 +1,37 @@
+from xml.etree import ElementTree
+from cStringIO import StringIO
 from openrosetta.models import Dataset, HomerQ
+from openrosetta.plugins.csv_plugin import dictify
 from pyramid.threadlocal import get_current_request
 import requests
+import simplejson as json
+
+
+class IDataUrl(object):
+    def get_urls(self, meta):
+        raise NotImplementedError
+
+
+class XmlDataUrl(IDataUrl):
+    def get_urls(self, meta):
+        urls = []
+        root = ElementTree.fromstring(meta)
+        for resource in root.find('resources').findall('resource'):
+            urls.append(resource.find('url').text)
+        return urls
+
+
+class JsonDataUrl(IDataUrl):
+    def get_urls(self, meta):
+        meta = json.loads(meta)
+        resources = meta.get('resources', [])
+        return [r.get('url') for r in resources]
+
+
+mime_mapping = {
+    'json': JsonDataUrl,
+    'xml': XmlDataUrl
+}
 
 
 class HomerAdapter(object):
@@ -28,6 +59,20 @@ class HomerAdapter(object):
         if stored_ds is None:
             stored_ds = Dataset(metadata_origin=metadata_origin, homer_q_id=homer_q._id)
         return '/'.join([self.request.application_url, 'babylon', str(stored_ds._id)])
+
+    def data_from_meta(self, metadata_origin):
+        r = requests.get(metadata_origin)
+        urls = XmlDataUrl().get_urls(r.text.encode('utf-8'))
+        if not urls:
+            return []
+
+        data = []
+        for url in urls:
+            r = requests.get(url)
+            for ct in mime_mapping:
+                if ct in r.headers.get('content-type', ''):
+                    data.append(dictify(StringIO(requests.get(r.content))))
+        return data
 
 
 homer_adapter = HomerAdapter()
