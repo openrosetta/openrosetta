@@ -1,0 +1,1573 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>9_Produzione</name>
+<Schema name="9_Produzione" id="9_Produzione">
+	<SimpleField name="Name" type="string"></SimpleField>
+	<SimpleField name="Description" type="string"></SimpleField>
+	<SimpleField name="WSKey" type="string"></SimpleField>
+	<SimpleField name="Indirizzo" type="string"></SimpleField>
+	<SimpleField name="Anno" type="int"></SimpleField>
+	<SimpleField name="PotenzakW" type="float"></SimpleField>
+	<SimpleField name="Collocazio" type="string"></SimpleField>
+</Schema>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">1</SimpleData>
+		<SimpleData name="Indirizzo">VIA RAGAZZI - LOC. LAVINO, 4</SimpleData>
+		<SimpleData name="Anno">2008</SimpleData>
+		<SimpleData name="PotenzakW">24.48</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.227293518304053,44.534820372329285</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">2</SimpleData>
+		<SimpleData name="Indirizzo">VIA ROCCANOVELLA, 2</SimpleData>
+		<SimpleData name="Anno">2008</SimpleData>
+		<SimpleData name="PotenzakW">46.24</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.202120904462872,44.55423557053831</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">3</SimpleData>
+		<SimpleData name="Indirizzo">VIA LUNGA , 27</SimpleData>
+		<SimpleData name="Anno">2008</SimpleData>
+		<SimpleData name="PotenzakW">19.54</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.187039327509071,44.54227562254183</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">4</SimpleData>
+		<SimpleData name="Indirizzo">VIA DELLA CANAPA , 7</SimpleData>
+		<SimpleData name="Anno">2008</SimpleData>
+		<SimpleData name="PotenzakW">9.45</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.211099439256506,44.552260191710545</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">5</SimpleData>
+		<SimpleData name="Indirizzo">VIA G. MARCONI, 3</SimpleData>
+		<SimpleData name="Anno">2008</SimpleData>
+		<SimpleData name="PotenzakW">49.59</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.197922078340195,44.542431452313849</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">6</SimpleData>
+		<SimpleData name="Indirizzo">Via M.Calari , 1</SimpleData>
+		<SimpleData name="Anno">2008</SimpleData>
+		<SimpleData name="PotenzakW">165.60</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.207137689683048,44.54428246351933</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">7</SimpleData>
+		<SimpleData name="Indirizzo">Via Lunga , 22</SimpleData>
+		<SimpleData name="Anno">2008</SimpleData>
+		<SimpleData name="PotenzakW">2.89</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.178843252056474,44.525794813041259</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">8</SimpleData>
+		<SimpleData name="Indirizzo">via Lunga , 22</SimpleData>
+		<SimpleData name="Anno">2008</SimpleData>
+		<SimpleData name="PotenzakW">3.74</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.178843252056474,44.525794813041259</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">9</SimpleData>
+		<SimpleData name="Indirizzo">via Lunga, 22</SimpleData>
+		<SimpleData name="Anno">2008</SimpleData>
+		<SimpleData name="PotenzakW">2.89</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.178843252056474,44.525794813041259</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">10</SimpleData>
+		<SimpleData name="Indirizzo">via Castello del Bue, 29</SimpleData>
+		<SimpleData name="Anno">2008</SimpleData>
+		<SimpleData name="PotenzakW">2.85</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.21424758974514,44.598377915426475</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">11</SimpleData>
+		<SimpleData name="Indirizzo">via O.Bosi, 7A</SimpleData>
+		<SimpleData name="Anno">2009</SimpleData>
+		<SimpleData name="PotenzakW">19.80</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.209716956284616,44.558908774398304</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">12</SimpleData>
+		<SimpleData name="Indirizzo">Via Del Chiesolino, 11</SimpleData>
+		<SimpleData name="Anno">2009</SimpleData>
+		<SimpleData name="PotenzakW">2.40</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.222557627686712,44.539332641350676</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">13</SimpleData>
+		<SimpleData name="Indirizzo">VIA ALVISI, 8</SimpleData>
+		<SimpleData name="Anno">2009</SimpleData>
+		<SimpleData name="PotenzakW">4.50</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.208188539775421,44.573624195460368</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">14</SimpleData>
+		<SimpleData name="Indirizzo">VIA DEI CARPINI, 3</SimpleData>
+		<SimpleData name="Anno">2009</SimpleData>
+		<SimpleData name="PotenzakW">9.72</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.156622036112758,44.560522154714874</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">15</SimpleData>
+		<SimpleData name="Indirizzo">Via Carpanelli, 20</SimpleData>
+		<SimpleData name="Anno">2009</SimpleData>
+		<SimpleData name="PotenzakW">5.70</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.201989558980358,44.546976577377791</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">16</SimpleData>
+		<SimpleData name="Indirizzo">VIA CALARI, 9</SimpleData>
+		<SimpleData name="Anno">2009</SimpleData>
+		<SimpleData name="PotenzakW">54.60</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.207626211160957,44.545457233435613</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">17</SimpleData>
+		<SimpleData name="Indirizzo">VIA CALARI, 11</SimpleData>
+		<SimpleData name="Anno">2009</SimpleData>
+		<SimpleData name="PotenzakW">16.80</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.208294962293554,44.545892371292176</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">18</SimpleData>
+		<SimpleData name="Indirizzo">VIA CALARI, 11</SimpleData>
+		<SimpleData name="Anno">2009</SimpleData>
+		<SimpleData name="PotenzakW">23.39</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.208294962293554,44.545892371292176</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">19</SimpleData>
+		<SimpleData name="Indirizzo">Via Lunga, 6/A</SimpleData>
+		<SimpleData name="Anno">2010</SimpleData>
+		<SimpleData name="PotenzakW">2.52</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.190437555317297,44.545822378932478</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">20</SimpleData>
+		<SimpleData name="Indirizzo">Via Lunga, 6/A</SimpleData>
+		<SimpleData name="Anno">2010</SimpleData>
+		<SimpleData name="PotenzakW">2.52</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.190437555317297,44.545822378932478</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">21</SimpleData>
+		<SimpleData name="Indirizzo">VIA DELLE QUERCE, 7</SimpleData>
+		<SimpleData name="Anno">2010</SimpleData>
+		<SimpleData name="PotenzakW">181.02</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.158122546790379,44.560880078945146</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">22</SimpleData>
+		<SimpleData name="Indirizzo">via SUOR DONATI, 108</SimpleData>
+		<SimpleData name="Anno">2010</SimpleData>
+		<SimpleData name="PotenzakW">19.53</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.15944912387018,44.582710399745274</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">23</SimpleData>
+		<SimpleData name="Indirizzo">via Baiesi, 23</SimpleData>
+		<SimpleData name="Anno">2010</SimpleData>
+		<SimpleData name="PotenzakW">5.04</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.19271210854415,44.543746798251668</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">24</SimpleData>
+		<SimpleData name="Indirizzo">VIA TURRINI, 9</SimpleData>
+		<SimpleData name="Anno">2010</SimpleData>
+		<SimpleData name="PotenzakW">2.40</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.1947351277383,44.562906431297819</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">25</SimpleData>
+		<SimpleData name="Indirizzo">Via Bosi, 7/A</SimpleData>
+		<SimpleData name="Anno">2010</SimpleData>
+		<SimpleData name="PotenzakW">40.50</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.209716956284616,44.558908774398304</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">26</SimpleData>
+		<SimpleData name="Indirizzo">Via Carpanelli, 11/A</SimpleData>
+		<SimpleData name="Anno">2010</SimpleData>
+		<SimpleData name="PotenzakW">9.20</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.206018617807434,44.546773586264969</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">27</SimpleData>
+		<SimpleData name="Indirizzo">Via Emilia, 84</SimpleData>
+		<SimpleData name="Anno">2010</SimpleData>
+		<SimpleData name="PotenzakW">43.63</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.206018617807434,44.546773586264969</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">28</SimpleData>
+		<SimpleData name="Indirizzo">VIA A. SGHINOLFI, 18</SimpleData>
+		<SimpleData name="Anno">2010</SimpleData>
+		<SimpleData name="PotenzakW">19.44</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.139156784252597,44.575266912370012</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">29</SimpleData>
+		<SimpleData name="Indirizzo">VIA A. SGHINOLFI, 18</SimpleData>
+		<SimpleData name="Anno">2010</SimpleData>
+		<SimpleData name="PotenzakW">8.64</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.139156784252597,44.575266912370012</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">30</SimpleData>
+		<SimpleData name="Indirizzo">Via Calanchi, 13</SimpleData>
+		<SimpleData name="Anno">2010</SimpleData>
+		<SimpleData name="PotenzakW">3.00</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.192528019243221,44.550476899942858</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">31</SimpleData>
+		<SimpleData name="Indirizzo">Via Baiesi , 101/A</SimpleData>
+		<SimpleData name="Anno">2010</SimpleData>
+		<SimpleData name="PotenzakW">19.58</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.191879016040151,44.541167642860536</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">32</SimpleData>
+		<SimpleData name="Indirizzo">VIA SUOR DONATI, 12</SimpleData>
+		<SimpleData name="Anno">2010</SimpleData>
+		<SimpleData name="PotenzakW">11.29</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.140011400816949,44.570261249357145</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">33</SimpleData>
+		<SimpleData name="Indirizzo">VIA ALVISI, 5/A</SimpleData>
+		<SimpleData name="Anno">2010</SimpleData>
+		<SimpleData name="PotenzakW">2.22</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.21365347592671,44.58188273738859</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">34</SimpleData>
+		<SimpleData name="Indirizzo">via A. Sghinolfi, 14/A</SimpleData>
+		<SimpleData name="Anno">2010</SimpleData>
+		<SimpleData name="PotenzakW">14.85</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.141003917058175,44.577352210235567</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">35</SimpleData>
+		<SimpleData name="Indirizzo">via A. Sghinolfi, 14/A</SimpleData>
+		<SimpleData name="Anno">2010</SimpleData>
+		<SimpleData name="PotenzakW">14.85</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.141003917058175,44.577352210235567</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">36</SimpleData>
+		<SimpleData name="Indirizzo">VIA SGHINOLFI, 15 int 2</SimpleData>
+		<SimpleData name="Anno">2011</SimpleData>
+		<SimpleData name="PotenzakW">5.52</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.145244330910554,44.575418737587334</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">37</SimpleData>
+		<SimpleData name="Indirizzo">VIA SGHINOLFI, 15 int 1</SimpleData>
+		<SimpleData name="Anno">2011</SimpleData>
+		<SimpleData name="PotenzakW">4.50</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.145244330910554,44.575418737587334</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">38</SimpleData>
+		<SimpleData name="Indirizzo">VIA PONTE ASSE, 21</SimpleData>
+		<SimpleData name="Anno">2010</SimpleData>
+		<SimpleData name="PotenzakW">5.98</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.178799796442483,44.535998570998103</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">39</SimpleData>
+		<SimpleData name="Indirizzo">VIA GRAMSCI, 42</SimpleData>
+		<SimpleData name="Anno">2011</SimpleData>
+		<SimpleData name="PotenzakW">2.99</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.143244764488017,44.564043637605138</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">40</SimpleData>
+		<SimpleData name="Indirizzo">VIA GRAMSCI, 42</SimpleData>
+		<SimpleData name="Anno">2011</SimpleData>
+		<SimpleData name="PotenzakW">2.99</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.143244764488017,44.564043637605138</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">41</SimpleData>
+		<SimpleData name="Indirizzo">VIA LODI, 18</SimpleData>
+		<SimpleData name="Anno">2011</SimpleData>
+		<SimpleData name="PotenzakW">5.55</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.184859863060016,44.550149301144394</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">42</SimpleData>
+		<SimpleData name="Indirizzo">VIA PASOLINI, 1</SimpleData>
+		<SimpleData name="Anno">2011</SimpleData>
+		<SimpleData name="PotenzakW">1.76</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.224130169368353,44.533244351244299</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">43</SimpleData>
+		<SimpleData name="Indirizzo">Via Lunga, SN</SimpleData>
+		<SimpleData name="Anno">2011</SimpleData>
+		<SimpleData name="PotenzakW">2.03</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.224130169368353,44.533244351244299</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">44</SimpleData>
+		<SimpleData name="Indirizzo">Via Lunga, SN</SimpleData>
+		<SimpleData name="Anno">2011</SimpleData>
+		<SimpleData name="PotenzakW">2.03</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.224130169368353,44.533244351244299</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">45</SimpleData>
+		<SimpleData name="Indirizzo">Via Santi, 3b</SimpleData>
+		<SimpleData name="Anno">2011</SimpleData>
+		<SimpleData name="PotenzakW">102.00</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.204166470228424,44.543981822055848</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">46</SimpleData>
+		<SimpleData name="Indirizzo">Via II Giugno, 3</SimpleData>
+		<SimpleData name="Anno">2010</SimpleData>
+		<SimpleData name="PotenzakW">68.85</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.217404173633456,44.536150497641273</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">47</SimpleData>
+		<SimpleData name="Indirizzo">VIA PASOLINI, 3</SimpleData>
+		<SimpleData name="Anno">2011</SimpleData>
+		<SimpleData name="PotenzakW">2.05</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.223815336227151,44.53336901186843</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">48</SimpleData>
+		<SimpleData name="Indirizzo">Via Anzola Dell'Emilia , 234</SimpleData>
+		<SimpleData name="Anno">2011</SimpleData>
+		<SimpleData name="PotenzakW">4.05</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.223815336227151,44.53336901186843</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">49</SimpleData>
+		<SimpleData name="Indirizzo">VIA BOSI, 14</SimpleData>
+		<SimpleData name="Anno">2011</SimpleData>
+		<SimpleData name="PotenzakW">61.20</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.209907579768972,44.562169598797396</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">50</SimpleData>
+		<SimpleData name="Indirizzo">VIA CALARI, 2</SimpleData>
+		<SimpleData name="Anno">2011</SimpleData>
+		<SimpleData name="PotenzakW">19.32</SimpleData>
+		<SimpleData name="Collocazio">Altro</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.206006390228579,44.545470351454235</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">51</SimpleData>
+		<SimpleData name="Indirizzo">VIA EMILIA, 367/A</SimpleData>
+		<SimpleData name="Anno">2011</SimpleData>
+		<SimpleData name="PotenzakW">255.20</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.206006390228579,44.545470351454235</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">52</SimpleData>
+		<SimpleData name="Indirizzo">VIA TORQUATO COSTA, 11</SimpleData>
+		<SimpleData name="Anno">2011</SimpleData>
+		<SimpleData name="PotenzakW">2.76</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.188588190758926,44.550686792028237</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">53</SimpleData>
+		<SimpleData name="Indirizzo">VIA EMILIA , 39M</SimpleData>
+		<SimpleData name="Anno">2011</SimpleData>
+		<SimpleData name="PotenzakW">18.40</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.222801838159093,44.536065319809857</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">54</SimpleData>
+		<SimpleData name="Indirizzo">Via Emilia, 357</SimpleData>
+		<SimpleData name="Anno">2011</SimpleData>
+		<SimpleData name="PotenzakW">19.82</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.222801838159093,44.536065319809857</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">55</SimpleData>
+		<SimpleData name="Indirizzo">VIA SANTI, SN</SimpleData>
+		<SimpleData name="Anno">2010</SimpleData>
+		<SimpleData name="PotenzakW">1.61</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.222801838159093,44.536065319809857</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">56</SimpleData>
+		<SimpleData name="Indirizzo">VIA AMENDOLA, 2</SimpleData>
+		<SimpleData name="Anno">2011</SimpleData>
+		<SimpleData name="PotenzakW">19.98</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.220750670992766,44.537240756614835</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">57</SimpleData>
+		<SimpleData name="Indirizzo">VIA AMENDOLA, 2</SimpleData>
+		<SimpleData name="Anno">2011</SimpleData>
+		<SimpleData name="PotenzakW">19.74</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.220750670992766,44.537240756614835</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">58</SimpleData>
+		<SimpleData name="Indirizzo">Via di Vittorio, 1</SimpleData>
+		<SimpleData name="Anno">2011</SimpleData>
+		<SimpleData name="PotenzakW">45.36</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.207291423088263,44.541650570553756</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">59</SimpleData>
+		<SimpleData name="Indirizzo">VIA DEI CARPINI, 3/C</SimpleData>
+		<SimpleData name="Anno">2010</SimpleData>
+		<SimpleData name="PotenzakW">19.74</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.156809122320295,44.560790948044563</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">60</SimpleData>
+		<SimpleData name="Indirizzo">VIA BAIESI , 18/C</SimpleData>
+		<SimpleData name="Anno">2010</SimpleData>
+		<SimpleData name="PotenzakW">2.30</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.193743206565099,44.545118879487397</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">61</SimpleData>
+		<SimpleData name="Indirizzo">via del Risorgimento, 39</SimpleData>
+		<SimpleData name="Anno">2010</SimpleData>
+		<SimpleData name="PotenzakW">5.04</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.185615496730833,44.548131416155115</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">62</SimpleData>
+		<SimpleData name="Indirizzo">VIA EMILIA, 130</SimpleData>
+		<SimpleData name="Anno">2010</SimpleData>
+		<SimpleData name="PotenzakW">2.99</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.185615496730833,44.548131416155115</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">63</SimpleData>
+		<SimpleData name="Indirizzo">VIA LUNGA, SNC</SimpleData>
+		<SimpleData name="Anno">2010</SimpleData>
+		<SimpleData name="PotenzakW">747.90</SimpleData>
+		<SimpleData name="Collocazio">A Terra</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.185615496730833,44.548131416155115</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">64</SimpleData>
+		<SimpleData name="Indirizzo">VIA 2 GIUGNO, 11B</SimpleData>
+		<SimpleData name="Anno">2010</SimpleData>
+		<SimpleData name="PotenzakW">74.92</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.185615496730833,44.548131416155115</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">65</SimpleData>
+		<SimpleData name="Indirizzo">Via Baiesi, 140</SimpleData>
+		<SimpleData name="Anno">2010</SimpleData>
+		<SimpleData name="PotenzakW">2.93</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.204687749491772,44.529523688481397</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">66</SimpleData>
+		<SimpleData name="Indirizzo">Via Baiesi, 140</SimpleData>
+		<SimpleData name="Anno">2010</SimpleData>
+		<SimpleData name="PotenzakW">2.93</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.204687749491772,44.529523688481397</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">67</SimpleData>
+		<SimpleData name="Indirizzo">Via Baiesi, 140</SimpleData>
+		<SimpleData name="Anno">2010</SimpleData>
+		<SimpleData name="PotenzakW">1.80</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.204687749491772,44.529523688481397</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">68</SimpleData>
+		<SimpleData name="Indirizzo">Via Baiesi, 140</SimpleData>
+		<SimpleData name="Anno">2010</SimpleData>
+		<SimpleData name="PotenzakW">2.93</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.204687749491772,44.529523688481397</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">69</SimpleData>
+		<SimpleData name="Indirizzo">VIA GASIANI, 27</SimpleData>
+		<SimpleData name="Anno">2010</SimpleData>
+		<SimpleData name="PotenzakW">2.92</SimpleData>
+		<SimpleData name="Collocazio">Su Pensilina/Pergola/Tettoia</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.142612036234913,44.566348960574992</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">70</SimpleData>
+		<SimpleData name="Indirizzo">VIA AMENDOLA, 2F</SimpleData>
+		<SimpleData name="Anno">2010</SimpleData>
+		<SimpleData name="PotenzakW">6.15</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.219577476072487,44.538036500268056</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">71</SimpleData>
+		<SimpleData name="Indirizzo">Via Gasiani, 1</SimpleData>
+		<SimpleData name="Anno">2011</SimpleData>
+		<SimpleData name="PotenzakW">2.99</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.142588724184122,44.564854980929574</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">72</SimpleData>
+		<SimpleData name="Indirizzo">VIA GUIDO ROSSA, 17</SimpleData>
+		<SimpleData name="Anno">2011</SimpleData>
+		<SimpleData name="PotenzakW">2.88</SimpleData>
+		<SimpleData name="Collocazio">Altro</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.226237536338797,44.532539187200285</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">73</SimpleData>
+		<SimpleData name="Indirizzo">VIA DELLA LIBERTA', 10</SimpleData>
+		<SimpleData name="Anno">2011</SimpleData>
+		<SimpleData name="PotenzakW">2.86</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.233256129365364,44.537321244776471</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">74</SimpleData>
+		<SimpleData name="Indirizzo">VIA S. GASIANI, 8B</SimpleData>
+		<SimpleData name="Anno">2011</SimpleData>
+		<SimpleData name="PotenzakW">2.96</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.14292311060162,44.565811573307208</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">75</SimpleData>
+		<SimpleData name="Indirizzo">VIA DELLA CANAPA, 15</SimpleData>
+		<SimpleData name="Anno">2011</SimpleData>
+		<SimpleData name="PotenzakW">5.09</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.21655678230082,44.554253284161533</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">76</SimpleData>
+		<SimpleData name="Indirizzo">GASIANI, 8</SimpleData>
+		<SimpleData name="Anno">2011</SimpleData>
+		<SimpleData name="PotenzakW">4.07</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.142843363222608,44.565752594084181</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">77</SimpleData>
+		<SimpleData name="Indirizzo">VIA 1 MAGGIO, 6</SimpleData>
+		<SimpleData name="Anno">2011</SimpleData>
+		<SimpleData name="PotenzakW">109.98</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.218995622771214,44.532919338651922</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">78</SimpleData>
+		<SimpleData name="Indirizzo">VIA GASIANI, 8/A</SimpleData>
+		<SimpleData name="Anno">2011</SimpleData>
+		<SimpleData name="PotenzakW">2.96</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.142721532349366,44.565820705585267</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">79</SimpleData>
+		<SimpleData name="Indirizzo">VIA EMILIA, 224D</SimpleData>
+		<SimpleData name="Anno">2011</SimpleData>
+		<SimpleData name="PotenzakW">2.82</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.142721532349366,44.565820705585267</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">80</SimpleData>
+		<SimpleData name="Indirizzo">VIA LUNGA , 27</SimpleData>
+		<SimpleData name="Anno">2011</SimpleData>
+		<SimpleData name="PotenzakW">17.15</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.187039327509071,44.54227562254183</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">81</SimpleData>
+		<SimpleData name="Indirizzo">VIA PERSICETO , 10</SimpleData>
+		<SimpleData name="Anno">2011</SimpleData>
+		<SimpleData name="PotenzakW">4.32</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.222088428991166,44.593030580086335</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">82</SimpleData>
+		<SimpleData name="Indirizzo">Via della Canapa, 15</SimpleData>
+		<SimpleData name="Anno">2011</SimpleData>
+		<SimpleData name="PotenzakW">18.00</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.21655678230082,44.554253284161533</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">83</SimpleData>
+		<SimpleData name="Indirizzo">VIA G. DI VITTORIO, 2</SimpleData>
+		<SimpleData name="Anno">2011</SimpleData>
+		<SimpleData name="PotenzakW">91.08</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.206952127571398,44.542064926579492</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">84</SimpleData>
+		<SimpleData name="Indirizzo">VIA G. VERDI, 7</SimpleData>
+		<SimpleData name="Anno">2011</SimpleData>
+		<SimpleData name="PotenzakW">2.99</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.184726411436854,44.547864105926543</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">85</SimpleData>
+		<SimpleData name="Indirizzo">VIA TURRINI, 18</SimpleData>
+		<SimpleData name="Anno">2011</SimpleData>
+		<SimpleData name="PotenzakW">5.04</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.169282842064908,44.566521983719923</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">86</SimpleData>
+		<SimpleData name="Indirizzo">VIA EMILIA, 45</SimpleData>
+		<SimpleData name="Anno">2011</SimpleData>
+		<SimpleData name="PotenzakW">199.75</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.169282842064908,44.566521983719923</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">87</SimpleData>
+		<SimpleData name="Indirizzo">Via Emilia, 45</SimpleData>
+		<SimpleData name="Anno">2011</SimpleData>
+		<SimpleData name="PotenzakW">999.22</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.169282842064908,44.566521983719923</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">88</SimpleData>
+		<SimpleData name="Indirizzo">VIA FERNANDO SANTI, 3</SimpleData>
+		<SimpleData name="Anno">2011</SimpleData>
+		<SimpleData name="PotenzakW">77.76</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.204246045633008,44.544131080681005</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">89</SimpleData>
+		<SimpleData name="Indirizzo">VIA CADUTI DI SABBIUNO, 12</SimpleData>
+		<SimpleData name="Anno">2011</SimpleData>
+		<SimpleData name="PotenzakW">104.40</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.216222052504873,44.540027321418364</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">90</SimpleData>
+		<SimpleData name="Indirizzo">VIA CADUTI DI SABBIUNO, 7</SimpleData>
+		<SimpleData name="Anno">2011</SimpleData>
+		<SimpleData name="PotenzakW">97.68</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.218123801315009,44.540386546672487</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">91</SimpleData>
+		<SimpleData name="Indirizzo">VIA CADUTI DI SABBIUNO, 7</SimpleData>
+		<SimpleData name="Anno">2011</SimpleData>
+		<SimpleData name="PotenzakW">94.00</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.218123801315009,44.540386546672487</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">92</SimpleData>
+		<SimpleData name="Indirizzo">VIA SUOR ORSOLA DONATI , 94</SimpleData>
+		<SimpleData name="Anno">2011</SimpleData>
+		<SimpleData name="PotenzakW">5.76</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.148432516260916,44.579002360736141</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">93</SimpleData>
+		<SimpleData name="Indirizzo">VIA AMENDOLA, 2E</SimpleData>
+		<SimpleData name="Anno">2011</SimpleData>
+		<SimpleData name="PotenzakW">40.60</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.219527310624226,44.538369213660722</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">94</SimpleData>
+		<SimpleData name="Indirizzo">VIA STRADELLAZZO, 4</SimpleData>
+		<SimpleData name="Anno">2011</SimpleData>
+		<SimpleData name="PotenzakW">8.10</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.154116703798234,44.566588668477529</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">95</SimpleData>
+		<SimpleData name="Indirizzo">Via 2 Giugno, 10</SimpleData>
+		<SimpleData name="Anno">2011</SimpleData>
+		<SimpleData name="PotenzakW">62.98</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.217451625057041,44.536636817713202</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">96</SimpleData>
+		<SimpleData name="Indirizzo">VIA PONTE ASSE, 1</SimpleData>
+		<SimpleData name="Anno">2011</SimpleData>
+		<SimpleData name="PotenzakW">4.32</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.180052634984355,44.535490562096442</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">97</SimpleData>
+		<SimpleData name="Indirizzo">VIA EMILIA, 41R</SimpleData>
+		<SimpleData name="Anno">2011</SimpleData>
+		<SimpleData name="PotenzakW">4.60</SimpleData>
+		<SimpleData name="Collocazio">Altro</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.180052634984355,44.535490562096442</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">98</SimpleData>
+		<SimpleData name="Indirizzo">VIA EMILIA, 41Q</SimpleData>
+		<SimpleData name="Anno">2011</SimpleData>
+		<SimpleData name="PotenzakW">14.26</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.180052634984355,44.535490562096442</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">99</SimpleData>
+		<SimpleData name="Indirizzo">VIA EMILIA, 22</SimpleData>
+		<SimpleData name="Anno">2011</SimpleData>
+		<SimpleData name="PotenzakW">2.38</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.228299461241734,44.533552860461455</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">100</SimpleData>
+		<SimpleData name="Indirizzo">VIA EMILIA, 26</SimpleData>
+		<SimpleData name="Anno">2011</SimpleData>
+		<SimpleData name="PotenzakW">2.38</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.228222863846584,44.533378094727148</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">101</SimpleData>
+		<SimpleData name="Indirizzo">VIA SPARATE, 1</SimpleData>
+		<SimpleData name="Anno">2011</SimpleData>
+		<SimpleData name="PotenzakW">99.96</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.161183280437825,44.585681889133788</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">102</SimpleData>
+		<SimpleData name="Indirizzo">Via I Maggio, 16</SimpleData>
+		<SimpleData name="Anno">2011</SimpleData>
+		<SimpleData name="PotenzakW">19.32</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.219669919274075,44.53390770812991</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">103</SimpleData>
+		<SimpleData name="Indirizzo">VIA ALVISI, 1</SimpleData>
+		<SimpleData name="Anno">2011</SimpleData>
+		<SimpleData name="PotenzakW">5.76</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.21613160556806,44.577737857291211</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">104</SimpleData>
+		<SimpleData name="Indirizzo">VIA M.R. LODI, 4</SimpleData>
+		<SimpleData name="Anno">2011</SimpleData>
+		<SimpleData name="PotenzakW">1.08</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.184551579445595,44.549953460293061</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">105</SimpleData>
+		<SimpleData name="Indirizzo">via del Chiesolino, 5</SimpleData>
+		<SimpleData name="Anno">2011</SimpleData>
+		<SimpleData name="PotenzakW">2.76</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.222370871802656,44.538864228519024</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">106</SimpleData>
+		<SimpleData name="Indirizzo">via del Chiesolino, 5</SimpleData>
+		<SimpleData name="Anno">2011</SimpleData>
+		<SimpleData name="PotenzakW">4.14</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.222370871802656,44.538864228519024</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">107</SimpleData>
+		<SimpleData name="Indirizzo">VIA MAGENTA , 15B</SimpleData>
+		<SimpleData name="Anno">2012</SimpleData>
+		<SimpleData name="PotenzakW">4.70</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.213850995939605,44.598062190915286</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">108</SimpleData>
+		<SimpleData name="Indirizzo">VERDI, 11</SimpleData>
+		<SimpleData name="Anno">2012</SimpleData>
+		<SimpleData name="PotenzakW">2.76</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.184643040551077,44.547721893879341</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">109</SimpleData>
+		<SimpleData name="Indirizzo">VIA G. ROSSA, 5</SimpleData>
+		<SimpleData name="Anno">2011</SimpleData>
+		<SimpleData name="PotenzakW">5.04</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.225175274500515,44.532882222085718</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">110</SimpleData>
+		<SimpleData name="Indirizzo">VIA G. ROSSA, 3</SimpleData>
+		<SimpleData name="Anno">2011</SimpleData>
+		<SimpleData name="PotenzakW">2.76</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.225096701340812,44.532905886623126</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">111</SimpleData>
+		<SimpleData name="Indirizzo">VIA MAGENTA , 15C</SimpleData>
+		<SimpleData name="Anno">2012</SimpleData>
+		<SimpleData name="PotenzakW">4.70</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.213899455585777,44.597780968595856</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">112</SimpleData>
+		<SimpleData name="Indirizzo">VIA G.ROSSA, 7/A</SimpleData>
+		<SimpleData name="Anno">2012</SimpleData>
+		<SimpleData name="PotenzakW">4.32</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.225362139652663,44.532803125779814</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">113</SimpleData>
+		<SimpleData name="Indirizzo">via del Chiesolino, 5</SimpleData>
+		<SimpleData name="Anno">2012</SimpleData>
+		<SimpleData name="PotenzakW">2.76</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.222370871802656,44.538864228519024</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">114</SimpleData>
+		<SimpleData name="Indirizzo">VIA TURRINI, 15</SimpleData>
+		<SimpleData name="Anno">2012</SimpleData>
+		<SimpleData name="PotenzakW">4.50</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.194289510340719,44.562382282947624</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">115</SimpleData>
+		<SimpleData name="Indirizzo">VIA LODI MARIA ROSA, 1</SimpleData>
+		<SimpleData name="Anno">2012</SimpleData>
+		<SimpleData name="PotenzakW">2.66</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.184937069554623,44.549473566235683</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">116</SimpleData>
+		<SimpleData name="Indirizzo">VIA LODI MARIA ROSA, 3</SimpleData>
+		<SimpleData name="Anno">2012</SimpleData>
+		<SimpleData name="PotenzakW">1.03</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.185045922691058,44.549573061642882</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">117</SimpleData>
+		<SimpleData name="Indirizzo">via del Chiesolino, 5</SimpleData>
+		<SimpleData name="Anno">2012</SimpleData>
+		<SimpleData name="PotenzakW">2.76</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.222370871802656,44.538864228519024</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">118</SimpleData>
+		<SimpleData name="Indirizzo">VIA ALVISI, 9/A</SimpleData>
+		<SimpleData name="Anno">2012</SimpleData>
+		<SimpleData name="PotenzakW">8.78</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.206644154925907,44.575100855092629</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">119</SimpleData>
+		<SimpleData name="Indirizzo">VIA G.ROSSA, 9</SimpleData>
+		<SimpleData name="Anno">2012</SimpleData>
+		<SimpleData name="PotenzakW">5.04</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.225598486878845,44.532707703877158</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">120</SimpleData>
+		<SimpleData name="Indirizzo">VIA G. ROSSA , 7/B</SimpleData>
+		<SimpleData name="Anno">2012</SimpleData>
+		<SimpleData name="PotenzakW">5.04</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.225440622197272,44.532786504483425</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">121</SimpleData>
+		<SimpleData name="Indirizzo">VIA PERSICETO, 10/A</SimpleData>
+		<SimpleData name="Anno">2012</SimpleData>
+		<SimpleData name="PotenzakW">4.40</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.21943607833785,44.588808319256884</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">122</SimpleData>
+		<SimpleData name="Indirizzo">VIA MASI, 18</SimpleData>
+		<SimpleData name="Anno">2012</SimpleData>
+		<SimpleData name="PotenzakW">19.89</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.205170462066979,44.542388464017847</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">123</SimpleData>
+		<SimpleData name="Indirizzo">VIA RISORGIMENTO, 20</SimpleData>
+		<SimpleData name="Anno">2012</SimpleData>
+		<SimpleData name="PotenzakW">2.76</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.184113896727084,44.547851109438824</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">124</SimpleData>
+		<SimpleData name="Indirizzo">Via Risorgimento, 24</SimpleData>
+		<SimpleData name="Anno">2012</SimpleData>
+		<SimpleData name="PotenzakW">2.76</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.18529941262358,44.547825208709831</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">125</SimpleData>
+		<SimpleData name="Indirizzo">VIA DEL RISORGIMENTO, 26</SimpleData>
+		<SimpleData name="Anno">2012</SimpleData>
+		<SimpleData name="PotenzakW">5.00</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.185413462518285,44.547775895728257</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">126</SimpleData>
+		<SimpleData name="Indirizzo">VIA A. SGHINOLFI, 1</SimpleData>
+		<SimpleData name="Anno">2012</SimpleData>
+		<SimpleData name="PotenzakW">4.56</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.148051727112501,44.574239073350689</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">127</SimpleData>
+		<SimpleData name="Indirizzo">VIA BARBIERI, 20</SimpleData>
+		<SimpleData name="Anno">2012</SimpleData>
+		<SimpleData name="PotenzakW">2.14</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.187240155904624,44.549222597117272</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">128</SimpleData>
+		<SimpleData name="Indirizzo">VIA SGHINOLFI, 30</SimpleData>
+		<SimpleData name="Anno">2012</SimpleData>
+		<SimpleData name="PotenzakW">20.00</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.138281929750487,44.577979585874836</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">129</SimpleData>
+		<SimpleData name="Indirizzo">VIA M. MAZZONI, 9/A</SimpleData>
+		<SimpleData name="Anno">2012</SimpleData>
+		<SimpleData name="PotenzakW">5.00</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.196826098525809,44.554424547386816</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">130</SimpleData>
+		<SimpleData name="Indirizzo">VIA EMILIA, 64</SimpleData>
+		<SimpleData name="Anno">2012</SimpleData>
+		<SimpleData name="PotenzakW">5.76</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.196826098525809,44.554424547386816</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">131</SimpleData>
+		<SimpleData name="Indirizzo">VIA EMILIA, 64/B</SimpleData>
+		<SimpleData name="Anno">2012</SimpleData>
+		<SimpleData name="PotenzakW">6.40</SimpleData>
+		<SimpleData name="Collocazio">BIPV</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.196826098525809,44.554424547386816</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">132</SimpleData>
+		<SimpleData name="Indirizzo">via I maggio, 8</SimpleData>
+		<SimpleData name="Anno">2012</SimpleData>
+		<SimpleData name="PotenzakW">8.60</SimpleData>
+		<SimpleData name="Collocazio">Altro</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.218976970862856,44.533227838059652</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">133</SimpleData>
+		<SimpleData name="Indirizzo">Via Baiesi, 103/B</SimpleData>
+		<SimpleData name="Anno">2012</SimpleData>
+		<SimpleData name="PotenzakW">9.53</SimpleData>
+		<SimpleData name="Collocazio">BIPV</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.193401473501407,44.536963569124644</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">134</SimpleData>
+		<SimpleData name="Indirizzo">VIA MAZZONI, 18/A</SimpleData>
+		<SimpleData name="Anno">2012</SimpleData>
+		<SimpleData name="PotenzakW">5.76</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.190184113361433,44.566181829488556</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">135</SimpleData>
+		<SimpleData name="Indirizzo">Via Verdi , 15</SimpleData>
+		<SimpleData name="Anno">2012</SimpleData>
+		<SimpleData name="PotenzakW">3.68</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.184406303719301,44.54749386177582</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">136</SimpleData>
+		<SimpleData name="Indirizzo">VIA CASTELLO DEL BUE , 19</SimpleData>
+		<SimpleData name="Anno">2012</SimpleData>
+		<SimpleData name="PotenzakW">6.00</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.214727198864347,44.598925191979532</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">137</SimpleData>
+		<SimpleData name="Indirizzo">VIA EMILIA, 60</SimpleData>
+		<SimpleData name="Anno">2012</SimpleData>
+		<SimpleData name="PotenzakW">947.50</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.214727198864347,44.598925191979532</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">138</SimpleData>
+		<SimpleData name="Indirizzo">VIA DELLE QUERCE, 7</SimpleData>
+		<SimpleData name="Anno">2012</SimpleData>
+		<SimpleData name="PotenzakW">199.92</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.158122546790379,44.560880078945146</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">139</SimpleData>
+		<SimpleData name="Indirizzo">VIA O. BOSI, 11/A</SimpleData>
+		<SimpleData name="Anno">2012</SimpleData>
+		<SimpleData name="PotenzakW">10.14</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.211717261955854,44.563385798996556</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">140</SimpleData>
+		<SimpleData name="Indirizzo">VIA ALVISI, 21C</SimpleData>
+		<SimpleData name="Anno">2012</SimpleData>
+		<SimpleData name="PotenzakW">60.00</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.211717261955854,44.563385798996556</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">141</SimpleData>
+		<SimpleData name="Indirizzo">VIA VERDI, 1</SimpleData>
+		<SimpleData name="Anno">2012</SimpleData>
+		<SimpleData name="PotenzakW">2.88</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.184854387577502,44.548069559358083</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">142</SimpleData>
+		<SimpleData name="Indirizzo">VIA GOLDONI, 71/A</SimpleData>
+		<SimpleData name="Anno">2012</SimpleData>
+		<SimpleData name="PotenzakW">2.76</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.196448231661693,44.549665955724187</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">143</SimpleData>
+		<SimpleData name="Indirizzo">VIA EMILIA, 225</SimpleData>
+		<SimpleData name="Anno">2012</SimpleData>
+		<SimpleData name="PotenzakW">3.92</SimpleData>
+		<SimpleData name="Collocazio">Su Pensilina/Pergola/Tettoia</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.196448231661693,44.549665955724187</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">144</SimpleData>
+		<SimpleData name="Indirizzo">VIA GARIBALDI , 3B</SimpleData>
+		<SimpleData name="Anno">2012</SimpleData>
+		<SimpleData name="PotenzakW">3.00</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.198710484997905,44.56660882072925</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">145</SimpleData>
+		<SimpleData name="Indirizzo">VIA GARIBALDI , 3A</SimpleData>
+		<SimpleData name="Anno">2012</SimpleData>
+		<SimpleData name="PotenzakW">3.00</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.198833587411004,44.566653104619348</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">146</SimpleData>
+		<SimpleData name="Indirizzo">VIA TOSELLI, 113</SimpleData>
+		<SimpleData name="Anno">2012</SimpleData>
+		<SimpleData name="PotenzakW">2.88</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.215126879890333,44.600460454398487</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">147</SimpleData>
+		<SimpleData name="Indirizzo">Via Emilia, 200</SimpleData>
+		<SimpleData name="Anno">2012</SimpleData>
+		<SimpleData name="PotenzakW">2.88</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.215126879890333,44.600460454398487</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">148</SimpleData>
+		<SimpleData name="Indirizzo">VIA SANTA CLELIA BARBIERI, 16</SimpleData>
+		<SimpleData name="Anno">2012</SimpleData>
+		<SimpleData name="PotenzakW">2.21</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.187271488687825,44.549323599281905</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">149</SimpleData>
+		<SimpleData name="Indirizzo">VIA PERSICETO, 10/A</SimpleData>
+		<SimpleData name="Anno">2012</SimpleData>
+		<SimpleData name="PotenzakW">10.58</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.21943607833785,44.588808319256884</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">150</SimpleData>
+		<SimpleData name="Indirizzo">VIA PERSICETO, 10/A</SimpleData>
+		<SimpleData name="Anno">2012</SimpleData>
+		<SimpleData name="PotenzakW">5.98</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.21943607833785,44.588808319256884</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">151</SimpleData>
+		<SimpleData name="Indirizzo">Via Mazzoni, 107</SimpleData>
+		<SimpleData name="Anno">2012</SimpleData>
+		<SimpleData name="PotenzakW">4.70</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.192040877266738,44.571740309367627</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">152</SimpleData>
+		<SimpleData name="Indirizzo">VIA MAGENTA, 2</SimpleData>
+		<SimpleData name="Anno">2012</SimpleData>
+		<SimpleData name="PotenzakW">10.56</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.200280312655782,44.58482972863991</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">153</SimpleData>
+		<SimpleData name="Indirizzo">VIA TURRINI, 12/A</SimpleData>
+		<SimpleData name="Anno">2012</SimpleData>
+		<SimpleData name="PotenzakW">2.94</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.168938969058575,44.562971223891971</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">154</SimpleData>
+		<SimpleData name="Indirizzo">VIA EMILIA, 75AB</SimpleData>
+		<SimpleData name="Anno">2012</SimpleData>
+		<SimpleData name="PotenzakW">3.96</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.168938969058575,44.562971223891971</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">155</SimpleData>
+		<SimpleData name="Indirizzo">TOSELLI, 69</SimpleData>
+		<SimpleData name="Anno">2012</SimpleData>
+		<SimpleData name="PotenzakW">2.88</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.214020020806361,44.601094587853581</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#9_Produzione">
+		<SimpleData name="WSKey">156</SimpleData>
+		<SimpleData name="Indirizzo">VIA MAZZONI, 25</SimpleData>
+		<SimpleData name="Anno">2012</SimpleData>
+		<SimpleData name="PotenzakW">2.94</SimpleData>
+		<SimpleData name="Collocazio">Su Edifici</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.196320848085023,44.561347816083035</coordinates></Point>
+  </Placemark>
+</Folder></Document></kml>
