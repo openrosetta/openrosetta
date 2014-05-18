@@ -3,7 +3,7 @@
 from bson import ObjectId
 from bson.errors import InvalidId
 from colander import MappingSchema, SchemaNode, String, OneOf, Integer
-from cornice import Service
+from openrosetta.config import RService
 from openrosetta.homer import homer_adapter
 from openrosetta.models import Dataset
 from pyramid.httpexceptions import HTTPNotFound
@@ -22,7 +22,7 @@ class BabilonIdSchema(MappingSchema):
     id = SchemaNode(String(), location='path')
 
 
-hello = Service(name='hello', path='/', description="Simplest app")
+hello = RService(name='hello', path='/', description="Simplest app")
 
 
 @hello.get()
@@ -31,9 +31,10 @@ def get_info(request):
 
     #dictify()
     df = DataFetcher()
-    df.test()# do not cal test call self.fetch_data([list of urls to download])
+    df.test()  # do not cal test call self.fetch_data([list of urls to download])
 
-homer = Service(name='homer', path='/homer', description='Homer endpoint proxy')
+
+homer = RService(name='homer', path='/homer', description='Homer endpoint proxy')
 
 
 @homer.get(schema=HomerSchema)
@@ -41,7 +42,7 @@ def get_homer(request):
     return homer_adapter.proxy(**request.validated)
 
 
-babylon = Service(name='babylon', path='/babylon/{id}', description='Babylon')
+babylon = RService(name='babylon', path='/babylon/{id}', description='Babylon')
 
 
 @babylon.get(schema=BabilonIdSchema)
