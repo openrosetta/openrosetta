@@ -36,8 +36,17 @@
       <button class="btn btn-default" id="search-btn">Search</button>
     </form>
   </div>
+  <div class="row" id="code-container" style="display: none">
+    <div class="col-md-12">
+      <pre>
+        <code id="jsonpretty"></code>
+      </pre>
+    </div>
+  </div>
   <div class="row">
-    <div id="jsonpretty" class="col-md-12"></div>
+    <div class="col-md-12">
+      <a href="http://powerlist.openrosetta.co.vu">Powerlist demo project</a>
+    </div>
   </div>
   <div class="row">
     <div class="copyright">
@@ -46,17 +55,18 @@
   </div>
 </div>
 
-
-<!-- Bootstrap core JavaScript
-================================================== -->
-<!-- Placed at the end of the document so the pages load faster -->
 <script src="//oss.maxcdn.com/libs/jquery/1.10.2/jquery.min.js"></script>
 <script src="//oss.maxcdn.com/libs/twitter-bootstrap/3.0.3/js/bootstrap.min.js"></script>
 <script type="text/javascript">
-  $('#search-btn').on('click', function(){
+  $('#search-btn').on('click', function () {
     var q = $('#search').val();
-    $.getJSON('http://api.openrosetta.co.vu/homer', {q: q, lang: 'it', start: 0, rows: 20}, function(data){
+    var btn = $(this);
+    btn.button('loading');
+    $.getJSON('http://api.openrosetta.co.vu/homer', {q: q, lang: 'it', start: 0, rows: 20}, function (data) {
+      $('#code-container').show();
       $('#jsonpretty').text(JSON.stringify(data, null, 2));
+    }).always(function(){
+        btn.button('reset');
     });
     return false;
   });
